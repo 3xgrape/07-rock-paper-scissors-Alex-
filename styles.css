@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(21, 46, 126);
+}
+.selections  {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
+}
+.selection {
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 100px;
+    padding: 2rem;
+    border-radius: 6rem;   
+}
+.selection:hover {
+    background-color: rgb(218, 218, 218);
+    transform: scale(1.2);
+}
+.results {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    color: aliceblue;
+    font-size: 60px;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Koulen', sans-serif;
+}
+
+.results-choice {
+    opacity: .2;
+}
+.results-choice-winner {
+    opacity: 1;
+    font-size: 3.5rem;
+}
